@@ -9,4 +9,8 @@ defmodule CipherTest do
   test "meetmebythetree with cipher scones will return egsgqwtahuiljgs" do
     assert Cipher.cipher("meetmebythetree","scones") == "egsgqwtahuiljgs"
   end
+
+  test "preparedinnernow with cipher dinnertime will return " do
+    assert Cipher.cipher("prepareddinnernow","dinnertime") == "szrceixlpmqvrerfp"
+  end
 end
