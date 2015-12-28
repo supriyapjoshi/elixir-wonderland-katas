@@ -13,4 +13,8 @@ defmodule CipherTest do
   test "preparedinnernow with cipher dinnertime will return " do
     assert Cipher.cipher("prepareddinnernow","dinnertime") == "szrceixlpmqvrerfp"
   end
+
+   test "szrceixlpmqvrerfp with cipher dinnertime will decipher it to prepareddinnernow" do
+      assert Cipher.decipher("szrceixlpmqvrerfp", "dinnertime") == "prepareddinnernow"
+  end
 end
